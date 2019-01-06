@@ -1,8 +1,8 @@
 # VSI
 
-Formats *Very Short Introduction* books downloaded from the subscription service provided by Oxford University Press. Books are converted to Kindle-compatible EPUB books.
+*Very Short Introduction* is a series of books from Oxford University Press that are available via a subscription service. However, since these books are only available in HTML, this program converts them to Kindle-compatible ebooks for easier reading.
 
-**You must have a valid VSI subscription through your institution to use this program. It is for convenience of reading only.**
+**You must have a valid VSI subscription through your institution to use this program. Generated books are for personal use only.**
 
 ## Installation
 1. `go get github.com/kdelwat/vsi`
@@ -33,5 +33,5 @@ Formats *Very Short Introduction* books downloaded from the subscription service
 9. Epilogue.html
 ```
 
-3. Run the program: `vsi <inputFolder> <outputFilename> <title> <author>`. This will generate an EPUB at the path given.
+3. Run the program: `vsi <inputFolder> <outputFilename> <title> <author>`. This will generate an EPUB at the path given. For the above directory, you would run `vsi "VSI accounting" accounting.epub "Accounting" "Christopher Nobes"`.
 4. (optional) To load onto a Kindle device, use [Calibre](https://calibre-ebook.com/).
